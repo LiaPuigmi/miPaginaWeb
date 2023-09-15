@@ -64,13 +64,14 @@
 
   #content{
       float: left;
-      width: 75%;
+      width: 100%;
+      height: 100%;
       background: rgb(0, 166, 255);
       min-height: 20%;
       align-content: center;
       justify-content: center;
       text-align: justify;
-      margin-top: 12%;
+      margin-top: 13%;
       
     }
 
@@ -78,8 +79,9 @@
 
   #personal{
       float: left;
-      width: 25%;
-      margin-left: 5%;
+      width: 22%;
+      height: 100%;
+      margin-left: 3%;
       background: rgb(230, 180, 248);
       align-content: center;
       text-align: justify;
@@ -97,7 +99,7 @@
       margin-top: 3%;
     }
 
-    .sobreMi{
+    #sobreMi{
     margin: 3%;
     margin-top: 3%;
     align-content: center;
@@ -107,7 +109,7 @@
     
   }
   
-  .imgSobreMi{
+  #imgSobreMi{
     align-items: center;
     width: 75%;
     margin: 5%;
@@ -118,7 +120,7 @@
 
   /* Segundo recuadro */
 
-  .suscribete{
+  #suscribete{
     margin: 3%;
      align-content: center;
      text-align: center;
@@ -126,14 +128,14 @@
      
    }
    
-   .info{
+   #info{
      padding: 3%;
      width: calc(100%-30px);
      height: 80%;
      background: #4887da;
    }
 
-   .imgBlindnessInferno{
+   #imgBlindnessInferno{
     align-items:center;
     width: 100%;
   }
@@ -150,15 +152,19 @@
 
     #jueguito3D{
       float: left;
-      width: 50%;
+      width: 44%;
+      height: 100%;
       align-content: center;
       text-align: justify;
       min-height: 20%;
-      margin-left: 10%;
+      margin-left: 3%;
+      margin-right: 3%;
       
     }
 
     .imgUtwd{
+      padding-top: 5%;
+      padding-bottom: 5%;
       align-items:center;
       width: 100%;
     }
@@ -172,13 +178,11 @@
 
   #fliping{
     float: right;
-    width: 25%;
+    width: 22%;
     background: rgb(230, 180, 248);
-    min-height: 100%;
     align-content: center;
-    justify-content: center;
     text-align: justify;
-    margin-top: 12%;
+    margin-right: 3%;
     
   }
   
@@ -191,10 +195,11 @@
   .flip-card {
     background-color: transparent;
     width: 75%;
+    height: 100%;
     perspective: 100%;
-    margin-bottom: 200%;
+    margin-bottom: 283%;
     margin-left: 10%;
-    padding-top: 100%;
+    padding-top: 110%;
   
   }
         
@@ -216,7 +221,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility:hidden;
     backface-visibility: hidden;
   }
   
